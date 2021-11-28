@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe0fb41de571734b8fa05f8dc505405, type: 3}
-  m_Name: New Question
+  m_Name: Question One
   m_EditorClassIdentifier: 
-  question: 
+  question: Question One?
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswerIndex: 3
+  - Yes
+  - No
+  - No
+  - No
+  correctAnswerIndex: 0

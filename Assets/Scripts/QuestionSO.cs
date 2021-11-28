@@ -14,5 +14,5 @@ public class QuestionSO : ScriptableObject
 
     public int GetGetCorrectAnswerIndex() => this.correctAnswerIndex;
 
-    public string GetAnswerByIndex(int index) => index > 0 && index < answers.Length ? answers[index] : null;
+    public string GetAnswerByIndex(int index) => index >= 0 && index < answers.Length ? answers[index] : null;
 }
